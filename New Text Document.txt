@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Assignment </title>
+</head>
+<body>
+  <h2 style="text-align:center"> JOB DETAILS </h2>
+    <form action="" method="get">
+      <table border="1" align="center" width="90%"> 
+        <tr> 
+            <td> Job title: </td>
+            <td><input type="name" placeholder="Name" ></td>
+        </tr>
+
+        <tr>
+            <td>  Description: </td>
+             
+            <td> <input type="text" placeholder="Brief Description should have atmost 500 characters" </td>
+        </tr>
+
+        <tr>
+            <td> Company Name:</td>
+            <td> <input type=" name " placeholder=" Company Name "> </td>
+        </tr>
+
+        <tr> 
+            <td> Contact number:</td>
+            <td> <input type=" number" placeholder="Number"></td>
+        </tr>
+
+        <tr> 
+            <td> Contact personal number:</td>
+            <td> <input type=" number" placeholder="Number"></td>
+        </tr>
+
+        <tr>
+            <td> Email:</td>
+            <td> <input type="email" id="emails" name="emails" multiple placeholder="Email"></td>
+            
+        </tr>
+
+        <tr> 
+            <td> Work status:</td>
+            <td> <input type="checkbox" id="vehicle1" name="vehicle1" value="full time ">
+                <label for="vehicle1"> full time </label> 
+
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="part time">
+                <label for="vehicle1"> Part time </label> 
+
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="pre dim">
+                <label for="vehicle1"> per dim </label> 
+
+             <input type="checkbox" id="vehicle1" name="vehicle1" value="other">
+                <label for="vehicle1"> other </label></td>    
+        </tr>
+        <tr> 
+            <td> salary: </td>
+            <td> <input type=" number" placeholder="Write">
+            
+                <select>
+                    <option> Select</option>
+                    <option> Us Doller $ </option>
+                    <option> India ₹ </option>
+                    <option> Euro € </option>
+                    <option> Pound Sterling  £</option>
+                    <option> chaina ¥</option> 
+                </select> 
+              
+            
+                <select> 
+                    <option> Select</option>
+                    <option> Yearly </option>
+                    <option> Monthly </option>
+                    <option> 6 Monthly </option>
+                    <option> weekly </option>
+                    <option> Day </option>
+                </select>
+            </td>
+        </tr>
+
+        <tr> 
+            <td>Exprience (yera): </td>
+            <td> <input type="number" placeholder="Number" </td>
+        </tr>
+
+        <tr> 
+            <td> Location: </td>
+            <td> <input type=" name " placeholder="Location"> </td>
+        </tr>
+
+        <tr>
+            <td> Qualification: </td>
+            <td> 
+              <select> 
+                <option> SSC </option>
+                <option> HSC </option>
+                <option> Graduation </option>
+                <option> Post graduation </option>
+                <option> Master degree </option>
+                <option> other </option>
+             </select>
+            </td>
+            
+        </tr>
+
+        <tr>
+             <td align="center"> <input type="submit"> </td>
+             <td  align="center"> <input type="reset"> </td>
+        </tr>
+    </form>
+
+    </table>   
+    </body>
+</html>
